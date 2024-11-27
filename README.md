@@ -11,15 +11,72 @@ Government of Gujarat
 
 ## Idea
 
+Network hubs explained - Study CCNAA networking hub is a device that connects multiple devices together in a local area network (LAN). It's also known as a repeater or concentrator. 
+Here's how a network hub works:
+Central connection point: A hub acts as the central point for data transmission in a network. 
+Data broadcasting: When a device sends data to the hub, the hub forwards that data to all other connected devices. 
+Shared bandwidth: All devices on the network share bandwidth, meaning that any connected device can access any resource at any time. 
+Here are some characteristics of a network hub:
+Less sophisticated than switches
+Switches can isolate data transmissions to specific devices, while hubs do not. 
+Half-duplex model
+Hubs operate in a half-duplex model, which can lead to security and privacy concerns. 
+No data traffic management
+Hubs do not examine or process data packets, which can lead to security concerns. 
+Simple and inexpensive
+Hubs are relatively simple devices and are typically less expensive than switches or routers. 
+Hub networks are usually better suited for smaller networks because larger ones can quickly become overcrowded and slow down overall performance.
+
 
 ## Proposed Solution / Architecture Diagram
 
+![alt text](What-is-a-Computer-Network-Hub-Diagram.jpg)
+
 
 ## Use Cases
+Network hubs are used in a variety of situations, including:
+Expanding networks: Hubs are a cost-effective way to add more devices to a network without extra cabling. 
+Sharing data: Hubs allow all connected devices to share data, which is useful when multiple users need access to the same files. 
+Centralizing network traffic: Hubs can simplify network management by allowing administrators to monitor and control all network activity from one location. 
+Low latency: Hubs offer low latency, which is the time it takes for a signal to travel from one device to another. This makes them ideal for applications that require real-time data transfer, such as video streaming or teleconferencing. 
+Small networks: Hubs are a good choice for small, localized networks that don't need to process large amounts of data. They are simpler and more cost-effective to set up and maintain than other types of networks. 
+Troubleshooting: Hubs can be used to connect devices for troubleshooting. 
+Replacing a broken switch: Hubs can be used to replace a broken switch. 
+Hubs are also known as network hubs and operate on OSI Layer 1 of the Open Systems Interconnection (OSI) model. They are often called "dumb switches" because they have no routing function. 
+
 
 
 ## Technology Stack
+A network hub is a Layer 1 device in the Open Systems Interconnection model. A network technology stack can be divided into two groups: open-source networking and vendor solutions. Here's some information about both:
+Open-source networking
+This is an open networking stack that includes technologies like P4, Sonic, Open vSwitch, and Tungsten Fabric.
+Vendor solutions
+These are technological solutions provided by vendors, such as Cisco, Juniper, Arista, F5, or Nokia Networks. 
+Here are some other things to know about network hubs:
+How they work
+A network hub connects multiple devices together and transmits data received at one port to all its other ports. 
+How they share bandwidth
+All devices connected to a network hub share all available bandwidth equally. 
+How they perform
+Hub networks are usually better suited for smaller networks because larger ones can quickly become overcrowded and slow down overall performance. 
+How they compare to switches
+Switches or routers can mitigate network performance problems by representing each port as a separate collision domain. 
 
+![alt text](Computer-and-networks-10Base-T-star-network-topology.png)
 
 ## Dependencies
+
+Here are some things to know about network hub dependencies:
+Network project dependencies
+These are the relationships between tasks or activities that determine their order or timing. For example, you can't install a router until you have the cables and power supply. 
+Network dependencies and parent/child relationships
+Network dependencies are often described as "parent/child" relationships, where the parent is the switch and the child is the server. 
+Dependency network
+A dependency network is an internal data structure that can automatically recalculate property values based on changes to other property values. 
+Leslie Graph
+A Leslie Graph is an abstraction that describes the dependencies between network, host, and application components. 
+Intelligent hubs
+Intelligent hubs have software that allows them to detect and isolate network problems. This software can also help resolve issues with a device on the network. 
+Hub
+A hub is a networking device that receives data signals from connected devices and broadcasts them to all other connected devices. 
 
